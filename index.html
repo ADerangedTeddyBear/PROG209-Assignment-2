@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+
+<HTML>
+    <head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <h1>Welcome to Thai Anh Van Vu's First and Last Letter swap web app!</h1>
+
+        <section id="pageOne">
+            <h2>Press the button below to start</h2>
+            <div class="center-object">
+                <button id="InputWords" onclick="collectWords()">Click here to start</button>
+            </div>
+        </section>
+
+        <section id = "pageTwo">
+			<h2>Down below is a list of words that you entered</h2>
+			<h2>Press the button below the list to start the letter swap</h2>
+            <div id="originalList"></div>
+            
+            <div class="center-object">
+                <button id="changeWords" onclick="displayModifiedList()">Click here to change the words</button>
+            </div>
+        </section>
+
+        <section id = "pageThree">
+			<h2>Down below is the modified list</h2>
+			<h2>Thank you for using this program. I hope you enjoyed it</h2>
+			<div id="modifiedList"></div>
+        </section>
+
+        <script src="index.js"></script>
+    </body>
+</HTML>
